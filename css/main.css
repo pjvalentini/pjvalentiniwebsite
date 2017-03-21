@@ -1,0 +1,182 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: "Shrikhand", cursive;
+}
+
+#wrapper {
+  font-family: "Work-Sans", sans-serif;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-top: 10px;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 130px;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  padding-top: 140px;
+}
+
+/**********************************
+HEADING
+***********************************/
+.header-left {
+  float: left;
+  color: #605e5b;
+}
+
+.header-right {
+  float: right;
+}
+
+header {
+  top: 0;
+  padding: 20px;
+  height: 130px;
+  width: 100%;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 60px;
+  line-height: .75em
+}
+
+h2 {
+  font-size: 30px;
+  margin: 15px;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: right;
+  margin: 20px 0;
+  padding: 0px 50px 0 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 20px 10px;
+}
+
+/**********************************
+ABOUT ME
+***********************************/
+
+.profile-photo {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 0 5% 50px 0;
+  border-radius: 100%;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+
+footer {
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social-icon {
+   width: 20px;
+   height: 20px;
+   margin: 0 5px;
+   padding-top: 5px;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+header {
+  background-color: #fffa00;
+  color: #605e5b;
+  outline: 10px dashed #fff;
+  box-shadow: 0 0 0 10px #000;
+  border: 10px #605e5b;
+  text-shadow: 2px 2px 1px #000;
+}
+
+
+body {
+  background-color: #605e5b;
+  color: #fffa00;
+  text-shadow: 1px 1px .5px #000;
+}
+
+a {
+  color: #fffa00;
+}
+
+
+div nav a {
+  color: #605e5b;
+  text-shadow: 1px 1px .5px #000;
+}
+
+nav a,
+nav a:visited {
+  color: #1c1b1b;
+}
+
+nav a.selected,
+nav a:hover {
+  color: #ff8d02;
+}
+
+p a,
+p a:visited {
+  color: #1c1b1b;
+  text-shadow: 1px 1px .5px #fffa00;
+}
+
+p a.selected,
+p a:hover {
+  color: #ff8d02;
+}
+
+footer {
+  color: #605e5b;
+  background-color: #fffa00;
+  outline: 10px dashed #fff;
+  box-shadow: 0 0 0 10px #000;
+  border: 10px #605e5b;
+  text-shadow: 1px 1px .5px #000;
+}
