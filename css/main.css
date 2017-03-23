@@ -13,6 +13,7 @@ body {
   padding: 0 5%;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -100,6 +101,12 @@ ABOUT ME
 }
 
 /**********************************
+CONTACT
+***********************************/
+
+
+
+/**********************************
 FOOTER
 ***********************************/
 
@@ -153,7 +160,7 @@ div nav a {
 
 nav a,
 nav a:visited {
-  color: #1c1b1b;
+  color: #afafaa;
 }
 
 nav a.selected,
