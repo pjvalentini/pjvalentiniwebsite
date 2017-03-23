@@ -23,7 +23,6 @@ p {
 
 img {
   max-width: 100%;
-  padding-top: 130px;
 }
 
 h3 {
@@ -46,8 +45,9 @@ HEADING
 header {
   top: 0;
   padding: 20px;
-  height: 130px;
+  height: 170px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -95,7 +95,7 @@ ABOUT ME
   float: left;
   height: 200px;
   width: 200px;
-  margin: 0 5% 50px 0;
+  margin: 130px 5% 50px 0;
   border-radius: 100%;
 }
 
